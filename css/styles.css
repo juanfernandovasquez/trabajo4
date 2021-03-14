@@ -8,15 +8,53 @@ html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*Reutilizables*/
-
+h1 {
+  font-size: 3rem;
+  color: #71af59;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #83d364;
+  font-weight: 700;
+}
 .container {
-  height: 90%;
+  width: 95%;
   margin: 0 auto;
 }
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+p {
+  display: inline-block;
+}
 
+.btn {
+  background-color: #4e9e99;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  color: white;
+  margin: 5px 0;
+  width: 80%;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #69c04d;
+}
 .header--content-container {
   width: 100vw;
   height: 70px;
@@ -94,4 +132,37 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*Second section*/
+.main-second-section--container {
+  text-align: center;
+}
+.main--second-section--cards-container {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.main--second-section-card {
+  border-color: rgb(134, 207, 154);
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  max-width: 300px;
+  margin: 10px auto;
+}
+.main--second-section-card img {
+  max-width: 100%;
+}
+.second-section--card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section--card-text--name {
+  font-size: 2rem;
+}
+.second-section--card-text--description {
+  font-size: 1.5rem;
 }
