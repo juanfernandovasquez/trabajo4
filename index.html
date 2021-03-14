@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/hamburgers.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)" />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1024px)"
+    />
+
+    <title>header - 1</title>
+  </head>
+  <body>
+    <header>
+      <div class="header--content-container">
+        <div class="header--container">
+          <!-- acá irá de background el logo  -->
+          <div class="header-logo">
+            <img src="images/icons/logo.svg" alt="" />
+          </div>
+
+          <!-- button que aparece en un inicio porque es mobile-first -->
+
+          <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <!-- Este menú se mostrará solo cuando esté en desktop o tablet -->
+          <nav id="navegation" class="navegation">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Quienes somos</a></li>
+              <li><a href="trader.html">Servicio Trader</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-first-section">
+        <section class="main--first-section--container">
+          <!-- <img src="./images/img1.jpg" alt="" /> -->
+        </section>
+      </section>
+    </main>
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
