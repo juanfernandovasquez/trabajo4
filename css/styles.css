@@ -309,7 +309,7 @@ footer {
 }
 .footer--first-section--contact h3 {
   color: #8e9c94;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 .first-section--contact--icon img {
@@ -319,6 +319,6 @@ footer {
   margin-left: 10px;
 }
 .first-section--contact--text p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #8e9c94;
 }
