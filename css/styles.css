@@ -107,13 +107,11 @@ p {
   border-style: none;
   font-size: 1.5rem;
   color: white;
-  width: 100%;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  width: 90%;
+  border-radius: 10px;
 }
 .btn-primary {
   background-color: #69c04d;
-  border-radius: 0px;
 }
 
 /*Display flex*/
