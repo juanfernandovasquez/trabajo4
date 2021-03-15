@@ -12,19 +12,21 @@ html {
 }
 
 /*Reutilizables*/
+
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #71af59;
   font-weight: 700;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #83d364;
-  font-weight: 700;
+  font-weight: 300;
 }
 p {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .container {
@@ -113,7 +115,9 @@ p {
 .btn-primary {
   background-color: #69c04d;
 }
-
+.btn-w-100 {
+  width: 100%;
+}
 /*Display flex*/
 
 .flex-column {
