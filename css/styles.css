@@ -233,6 +233,14 @@ p {
 .second-section--card-text--description {
   font-size: 1.5rem;
 }
+button img {
+  height: 20px;
+}
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*third section*/
 .main--third-section {
@@ -245,8 +253,10 @@ p {
   display: inline-block;
 }
 
-.icono-contenedor {
+.icono-container {
+  height: 80px;
   width: 80px;
+  margin: 0 auto;
 }
 
 /*Fourt section*/
