@@ -180,7 +180,7 @@ p {
   padding-top: 20%;
 }
 .navegation ul li {
-  background-color: rgb(238 238 255);
+  background-color: rgb(78 158 153 / 10%);
   list-style: none;
   display: flex;
   justify-content: center;
@@ -188,9 +188,9 @@ p {
   margin-bottom: 20px;
 }
 .navegation ul li a {
-  padding: 20px 50%;
+  padding: 20px 0;
   display: block;
-  color: black;
+  color: rgb(100 150 81);
   font-size: 1.6rem;
   text-decoration: none;
 }
@@ -293,11 +293,14 @@ footer {
 .first-section--contact--icon-text {
   display: flex;
 }
-
-.first-section--contact--container img {
-  max-width: 50%;
+/*footer*/
+.footer--first-section--contact > img {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
-.first-section--contact--icon {
+.first-section--contact--icon,
+.footer--second-section--follow-us--icon {
   width: 20px;
   height: 20px;
   border: 1.58px solid #4e9e99;
@@ -307,7 +310,8 @@ footer {
   padding: 10px;
   border-radius: 10%;
 }
-.footer--first-section--contact h3 {
+.footer--first-section--contact h3,
+.footer--second-section--follow-us--container h3 {
   color: #8e9c94;
   font-size: 3rem;
   font-weight: 300;
@@ -321,4 +325,17 @@ footer {
 .first-section--contact--text p {
   font-size: 1.7rem;
   color: #8e9c94;
+}
+
+/*footer second section*/
+.footer--second-section--follow-us--icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+.footer--second-section--follow-us--icon {
+  border-radius: 50%;
+}
+
+.footer--second-section--follow-us--icon img {
+  max-width: 15px;
 }
