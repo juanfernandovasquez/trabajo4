@@ -286,6 +286,39 @@ button img {
 footer {
   background-color: #2d4035;
 }
+.footer--first-section--contact {
+  display: flex;
+  flex-direction: column;
+}
+.first-section--contact--icon-text {
+  display: flex;
+}
+
 .first-section--contact--container img {
   max-width: 50%;
+}
+.first-section--contact--icon {
+  width: 20px;
+  height: 20px;
+  border: 1.58px solid #4e9e99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10%;
+}
+.footer--first-section--contact h3 {
+  color: #8e9c94;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.first-section--contact--icon img {
+  max-width: 13px;
+}
+.first-section--contact--text {
+  margin-left: 10px;
+}
+.first-section--contact--text p {
+  font-size: 1.5rem;
+  color: #8e9c94;
 }
