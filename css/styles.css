@@ -281,3 +281,11 @@ button img {
   justify-content: space-between;
   align-items: center;
 }
+
+/*footer*/
+footer {
+  background-color: #2d4035;
+}
+.first-section--contact--container img {
+  max-width: 50%;
+}
