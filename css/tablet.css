@@ -47,3 +47,11 @@
 .header-logo {
   width: 200px;
 }
+
+/*Fourt-section*/
+.main--fourt-section-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
