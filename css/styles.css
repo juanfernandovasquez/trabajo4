@@ -166,6 +166,7 @@ p {
   justify-content: space-between;
   margin: 0 auto;
   box-shadow: 0px 0px 6px -3px rgb(0 0 0 / 75%);
+  z-index: 10;
 }
 
 .header-logo {
@@ -366,10 +367,12 @@ footer {
 
 /*Second Section*/
 .main--second-section {
-  margin-top: 70px;
+  position: relative;
+  background-color: white;
 }
 .main--second-section--container {
   text-align: center;
+  margin-top: 250px;
 }
 .main--second-section--container h2 {
   margin: 30px 0;
@@ -390,4 +393,12 @@ footer {
 .second-section--content--text p {
   line-height: 2;
   text-align: justify;
+}
+.background-image-about-us {
+  position: absolute;
+  top: 0;
+  height: 360px;
+  width: 100vw;
+  background-color: black;
+  z-index: -1;
 }
