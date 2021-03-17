@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/hamburgers.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <title>Contáctanos</title>
+  </head>
+  <body style="margin-top: 70px">
+    <header>
+      <div class="header--content-container">
+        <div class="header--container">
+          <!-- acá irá de background el logo  -->
+          <div class="header-logo">
+            <img src="images/icons/logo.png" alt="" />
+          </div>
+
+          <!-- button que aparece en un inicio porque es mobile-first -->
+
+          <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <!-- Este menú se mostrará solo cuando esté en desktop o tablet -->
+          <nav id="navegation" class="navegation">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Quienes somos</a></li>
+              <li><a href="trader.html">Servicio Trader</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="contacto-main--first-section">
+        <div class="contacto-main--first-section--container container ptb-20">
+          <h2>Contáctate con nosotros</h2>
+          <p class="mtb-20">
+            Contáctanos a través de nuestros canales de atención para atender
+            cualquier consulta o cotización.
+          </p>
+          <button class="btn btn-primary ptb-10 icon-button m-0-auto">
+            <img
+              class="m-sides-10"
+              src="./images/icons/whatsapp-brands.svg"
+              alt=""
+            />
+            Contáctanos por Whatsapp
+          </button>
+          <button class="btn mtb-20 ptb-10 icon-button m-0-auto">
+            <img
+              class="m-sides-10"
+              src="./images/icons/envelope-regular-copia.svg"
+              alt=""
+            />
+            juanvasquezvergara@gmail.com
+          </button>
+          <button class="btn ptb-10 icon-button m-0-auto">
+            <img
+              class="m-sides-10"
+              src="./images/icons//phone-solid.svg"
+              alt=""
+            />
+            +51 975763285
+          </button>
+        </div>
+      </section>
+      <section class="found-ud--contacto-main--second-section">
+        <div id="mapid"></div>
+      </section>
+    </main>
+    <footer class="ptb-20">
+      <section class="footer--first-section--contact mb-20">
+        <img src="./images/icons/logo.svg" alt="" />
+        <div class="first-section--contact--container container">
+          <div class="footer--first-section--contact">
+            <h3 class="mb-20">Contáctanos</h3>
+            <div class="first-section--contact--icon-text mtb-10">
+              <div class="first-section--contact--icon">
+                <img src="./images/icons/map-marker-alt-solid.svg" alt="" />
+              </div>
+              <div class="first-section--contact--text">
+                <p>Correo:</p>
+                <br />
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="first-section--contact--icon-text mb-10">
+              <div class="first-section--contact--icon">
+                <img src="./images/icons/envelope-regular.svg" alt="" />
+              </div>
+              <div class="first-section--contact--text">
+                <p>Ubicación:</p>
+                <br />
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="first-section--contact--icon-text mb-10">
+              <div class="first-section--contact--icon">
+                <img src="./images/icons/whatsapp-brands-contact.svg" alt="" />
+              </div>
+              <div class="first-section--contact--text">
+                <p>Whatsapp:</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer--second-section--follow-us">
+        <div class="footer--second-section--follow-us--container container">
+          <h3>Síguenos</h3>
+          <div
+            class="footer--second-section--follow-us--icons-container p-10 mtb-20"
+          >
+            <div class="footer--second-section--follow-us--icon">
+              <img src="/images/icons/facebook-f-brands.svg" alt="" />
+            </div>
+            <div class="footer--second-section--follow-us--icon">
+              <img src="/images/icons/instagram-brands.svg" alt="" />
+            </div>
+            <div class="footer--second-section--follow-us--icon">
+              <img src="/images/icons/youtube-brands.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer--thrid-section--social-media"></section>
+    </footer>
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
