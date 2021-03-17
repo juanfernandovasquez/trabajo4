@@ -235,7 +235,6 @@ p {
 
 /*Second section*/
 .main--second-section {
-  margin: 0 auto;
 }
 .main-second-section--container {
   text-align: center;
@@ -246,12 +245,13 @@ p {
   flex-shrink: 0;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-around;
 }
 .main--second-section-card {
   border-color: rgb(134, 207, 154);
   border-radius: 10px;
   border-style: solid;
-  max-width: 350px;
+  max-width: 320px;
   margin: 10px auto;
 }
 .main--second-section-card img {
@@ -274,6 +274,7 @@ button img {
 }
 
 /*third section*/
+
 .main--third-section {
   background-color: #ecfef1;
 }
@@ -374,8 +375,13 @@ footer {
 }
 
 /*Contacto*/
+.found-us--contacto-main--second-section {
+  height: 60vh;
+  width: 100vw;
+}
 #mapid {
-  height: 180px;
+  height: 100%;
+  width: 100%;
 }
 
 /*nosotros*/

@@ -47,6 +47,17 @@
 .header-logo {
   width: 200px;
 }
+/*fs*/
+.main-first-section {
+  margin-top: 80px;
+}
+/*ss*/
+.main--second-section--cards-container {
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-direction: row;
+  margin: 0 auto;
+}
 /*third-section*/
 .main--third-section--container {
   padding: 70px 0;
@@ -85,14 +96,44 @@
   min-width: 400px;
 }
 
-/*contacto*/
+/*about us*/
 .background-image-about-us {
   height: 70vh;
 }
-.main--second-section {
+.about-us--main--second-section {
   max-width: 90%;
 }
 .mw-80 {
   max-width: 90%;
   margin: 20px auto;
+}
+
+/*contacto*/
+.contact--main-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacto-main--first-section,
+.found-us--contacto-main--second-section {
+  max-width: 50%;
+}
+.found-us--contacto-main--second-section {
+  border-radius: 10px;
+}
+.contacto-main--first-section,
+.found-us--contacto-main--second-section {
+  width: 400px;
+  height: 400px;
+}
+#mapid {
+  border-radius: 5px;
+}
+.contact--main-section {
+  margin-top: 80px;
 }
