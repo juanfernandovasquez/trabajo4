@@ -387,31 +387,32 @@ footer {
 /*nosotros*/
 
 /*Second Section*/
-.main--second-section {
+.about-us--main--second-section {
   position: relative;
   background-color: white;
 }
-.main--second-section--container {
+.about-us--main--second-section--container {
   text-align: center;
   margin-top: 250px;
 }
-.main--second-section--container h2 {
+
+.about-us--main--second-section--container h2 {
   margin: 30px 0;
 }
 
-.second-section--content--icon {
+.about-us--second-section--content--icon {
   max-width: 100%;
   height: 150px;
 }
 
-.second-section--content--text {
+.about-us--second-section--content--text {
   text-align: center;
   width: 100%;
 }
-.second-section--content--text h3 {
+.about-us--second-section--content--text h3 {
   margin: 20px;
 }
-.second-section--content--text p {
+.about-us--second-section--content--text p {
   line-height: 2;
   text-align: justify;
 }
