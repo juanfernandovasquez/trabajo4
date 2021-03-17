@@ -5,3 +5,10 @@
 }
 
 /*fin del header */
+.container {
+  max-width: 1200px;
+}
+
+.main-first-section {
+  margin-top: 80px;
+}
