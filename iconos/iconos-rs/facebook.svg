@@ -9,14 +9,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    aria-hidden="true"
    focusable="false"
-   data-prefix="fas"
-   data-icon="thumbs-up"
-   class="svg-inline--fa fa-thumbs-up fa-w-16"
+   data-prefix="fab"
+   data-icon="facebook-f"
+   class="svg-inline--fa fa-facebook-f fa-w-10"
    role="img"
-   viewBox="0 0 512 512"
+   viewBox="0 0 320 512"
    version="1.1"
    id="svg4"
-   sodipodi:docname="thumbs-up-solid.svg"
+   sodipodi:docname="facebook-f-brands.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <metadata
      id="metadata10">
@@ -45,7 +45,7 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="1.65625"
-     inkscape:cx="256"
+     inkscape:cx="160"
      inkscape:cy="256"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
@@ -53,7 +53,7 @@
      inkscape:current-layer="svg4" />
   <path
      fill="currentColor"
-     d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+     d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
      id="path2"
-     style="fill:#65ebf8;fill-opacity:0.80778033" />
+     style="fill:#4e9e99;fill-opacity:1" />
 </svg>
