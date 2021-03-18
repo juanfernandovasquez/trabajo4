@@ -3,6 +3,9 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+.navegation {
+  width: 50%;
+}
 /*second section*/
 .main--second-section-card {
   margin: 20px;

@@ -234,8 +234,7 @@ p {
 }
 
 /*Second section*/
-.main--second-section {
-}
+
 .main-second-section--container {
   text-align: center;
   padding: 70px 0;
@@ -423,4 +422,12 @@ footer {
   width: 100vw;
   background-color: black;
   z-index: -1;
+  margin-top: 70px;
+}
+a:visited,
+a:link {
+  color: white;
+}
+a {
+  text-decoration: none;
 }

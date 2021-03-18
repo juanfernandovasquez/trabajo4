@@ -97,8 +97,11 @@
 }
 
 /*about us*/
+.about-us--main--second-section--container {
+}
 .background-image-about-us {
   height: 70vh;
+  margin-top: 80px;
 }
 .about-us--main--second-section {
   max-width: 90%;
