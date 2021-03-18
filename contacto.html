@@ -76,7 +76,7 @@
           <button class="btn btn-primary ptb-10 icon-button btn-w-100 mt-10">
             <img class="m-sides-10" src="./iconos/whatsapp-brands.svg" alt="" />
             <a
-              href="https://api.whatsapp.com/send/?phone=%2B51975763285&text=Hola%2C+me+gustar%C3%ADa+preguntar+por+alg%C3%BAn+servicio.&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=%2B51925422965&text=Hola%2C+me+gustar%C3%ADa+preguntar+por+alg%C3%BAn+servicio.&app_absent=0"
             >
               Contáctanos por Whatsapp
             </a>
@@ -95,14 +95,14 @@
           </button>
           <button class="btn ptb-10 icon-button btn-w-100">
             <img class="m-sides-10" src="./iconos/phone-solid.svg" alt="" />
-            <a href="tel:+51975763285">+51 975763285</a>
+            <a href="tel:+51925422965">+51 925422965</a>
           </button>
         </div>
       </section>
       <section class="found-us--contacto-main--second-section">
         <div id="mapid" style="z-index: 0"></div>
         <script>
-          var mymap = L.map("mapid").setView([51.505, -0.09], 13);
+          var mymap = L.map("mapid").setView([-12.068568, -77.078828], 15);
 
           L.tileLayer(
             "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoianVhbmZ2diIsImEiOiJja21jeHMxaWIwZXlxMm5wNzlpOHVocHJkIn0.DymDEb_TZQeO12t_djtwHg",
@@ -116,6 +116,11 @@
               zoomOffset: -1,
             }
           ).addTo(mymap);
+
+          var marker = L.marker([-12.068568, -77.078828]).addTo(mymap);
+          marker
+            .bindPopup("<b>Acá irá su hubicación</b><br>Señor Manuel")
+            .openPopup();
         </script>
       </section>
     </main>
