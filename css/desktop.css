@@ -6,6 +6,11 @@
 .navegation {
   width: 50%;
 }
+
+/*fs*/
+.main--first-section--container {
+  width: 50%;
+}
 /*second section*/
 .main--second-section-card {
   margin: 20px;

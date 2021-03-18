@@ -47,10 +47,25 @@
 .header-logo {
   width: 200px;
 }
+
 /*fs*/
 .main-first-section {
   margin-top: 80px;
 }
+.contenedor-hero {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main--first-section--container {
+  text-align: right;
+  max-width: 50%;
+  margin: 0 0;
+  align-items: flex-end;
+}
+
 /*ss*/
 .main--second-section--cards-container {
   flex-wrap: wrap;

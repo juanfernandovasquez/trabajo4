@@ -232,7 +232,23 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.main--first-section--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.main--first-section--container h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.contenedor-hero {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
 /*Second section*/
 
 .main-second-section--container {
