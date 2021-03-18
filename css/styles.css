@@ -235,12 +235,15 @@ p {
 .main--first-section--container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100%;
 }
 .main--first-section--container h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
+}
+.main--first-section--container h1 {
+  font-size: 2.5rem;
 }
 .contenedor-hero {
   display: flex;

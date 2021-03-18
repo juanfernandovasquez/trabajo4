@@ -1,6 +1,6 @@
 /*header*/
 .header--container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .navegation {
@@ -10,6 +10,15 @@
 /*fs*/
 .main--first-section--container {
   width: 50%;
+}
+.main--first-section--container h2 {
+  font-size: 6rem;
+}
+.main--first-section--container h1 {
+  font-size: 3.5rem;
+}
+.contenedor-hero {
+  max-width: 1200px;
 }
 /*second section*/
 .main--second-section-card {
