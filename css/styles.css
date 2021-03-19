@@ -441,6 +441,10 @@ footer {
   height: 360px;
   width: 100vw;
   background-color: black;
+  background-image: url("../images/canola-fields-1911392_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
   margin-top: 70px;
 }
