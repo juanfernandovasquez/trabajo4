@@ -272,9 +272,10 @@ p {
   border-style: solid;
   max-width: 320px;
   margin: 10px auto;
+  padding-top: 3px;
 }
 .main--second-section-card img {
-  max-width: 100%;
+  max-width: 99%;
 }
 
 .second-section--card-text--name {
